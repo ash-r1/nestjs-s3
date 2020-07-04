@@ -45,8 +45,8 @@ import { S3Module } from '@ntegral/nestjs-s3';
 @Module({
   imports: [
     S3Module.forRoot({
-      accessKeyId: 'aws_access_key_id',
-      secretAccessKey: 'aws_secret_access_key',
+      accessKeyId?: 'aws_access_key_id',
+      secretAccessKey?: 'aws_secret_access_key',
       region?: 'aws_region_id',
       sessionToken?: 'aws_session_token', | null, 
       apiVersion?: 's3_api_version' //based on s3 api version //
