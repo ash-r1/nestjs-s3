@@ -16,7 +16,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 var S3CoreModule_1;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.S3CoreModule = void 0;
 const common_1 = require("@nestjs/common");
 const providers_1 = require("./providers");
 const s3_service_1 = require("./services/s3.service");

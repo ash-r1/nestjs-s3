@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createS3Client = void 0;
 const AWS = require("aws-sdk/global");
 const S3 = require("aws-sdk/clients/s3");
 const https = require("https");

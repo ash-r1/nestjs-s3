@@ -12,7 +12,6 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.S3Service = void 0;
 const common_1 = require("@nestjs/common");
 const S3 = require("aws-sdk/clients/s3");
 const common_2 = require("../common");
