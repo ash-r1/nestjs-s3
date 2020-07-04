@@ -1,8 +1,8 @@
 import { ModuleMetadata, Type } from "@nestjs/common/interfaces";
 
 export interface S3ConfigOptions {
-    accessKeyId: string;
-    secretAccessKey: string;
+    accessKeyId?: string;
+    secretAccessKey?: string;
     region?: string;
     sessionToken?: string;
     apiVersion?: string;

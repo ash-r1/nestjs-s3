@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.createS3Providers = void 0;
 const common_1 = require("../common");
 function createS3Providers(options) {
     return {
